@@ -1,0 +1,717 @@
+{
+	"id": "22e5800e-ddcc-4f7d-a5b6-617e2a17a8f2",
+	"name": "AltoroJ REST API",
+	"timestamp": "2025-12-04T15:38:30.250Z",
+	"collection_id": "5040522-dbce0e75-98cd-4ef8-a313-3915ec4e337e",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 59,
+	"delay": "1000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-12-04T15:38:14.139Z",
+	"totalFail": 11,
+	"results": [
+		{
+			"id": "05583d9e-54d7-4fee-ad53-d1d633856cf1",
+			"name": "LOGIN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 565,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains Authorization & success": true,
+				"Verify if success= jsmith is now logged in": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains Authorization & success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if success= jsmith is now logged in": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				565
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains Authorization & success": true,
+					"Verify if success= jsmith is now logged in": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "e44ba67c-38c7-41d3-8977-64a3892449b9",
+			"name": "VERIFY IF USER IS LOGGED IN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains loggedin": true,
+				"Verify if loggedin= true": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains loggedin": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if loggedin= true": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains loggedin": true,
+					"Verify if loggedin= true": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "a52b15b1-ed83-4c20-98b4-5c7a9effecc8",
+			"name": "GET ACCOUNTS",
+			"url": "http://demo.testfire.net/api/account",
+			"time": 282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains Accounts, Name, id": true,
+				"Verify if the response body is valid": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains Accounts, Name, id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if the response body is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains Accounts, Name, id": true,
+					"Verify if the response body is valid": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "9db99af2-98cc-4bc7-90b6-b6431edaa609",
+			"name": "VIEW ACCOUNT DETAILS",
+			"url": "http://demo.testfire.net/api/account/800003",
+			"time": 299,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains accountId, balance, credits, debits": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains accountId, balance, credits, debits": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				299
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains accountId, balance, credits, debits": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "193d1a72-c8ac-4f07-b53b-90c5daef5a45",
+			"name": "GET LAST 10 TRANSACTIONS",
+			"url": "http://demo.testfire.net/api/account/800003/transactions",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains last_10_transactions": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains last_10_transactions": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains last_10_transactions": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "c1a01721-6ff9-428c-84e1-3b824792389e",
+			"name": "SHOW TRANSACTIONS BETWEEN 2 DATES",
+			"url": "http://demo.testfire.net/api/account/800003/transactions",
+			"time": 319,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains transactions": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains transactions": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains transactions": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "f5eed93c-937d-4545-a230-07439e4a830f",
+			"name": "TRANSFER",
+			"url": "http://demo.testfire.net/api/transfer",
+			"time": 303,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains success": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				303
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains success": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "1c7934e7-4607-4ead-9090-8fedfdb0d162",
+			"name": "SUBMIT FEEDBACK",
+			"url": "http://demo.testfire.net/api/feedback/submit",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains comments, subject, name, email": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains comments, subject, name, email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains comments, subject, name, email": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "b1e70776-6463-4124-85af-12a46a1c69d5",
+			"name": "ADD A USER",
+			"url": "http://demo.testfire.net/api/admin/addUser",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains success": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains success": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "fc0de643-c152-4e1a-a8f5-cc73b2f3b52d",
+			"name": "CHANGE PASSWORD",
+			"url": "http://demo.testfire.net/api/admin/changePassword",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains success": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains success": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "fe266811-9f67-4407-a829-07bc6d0ff8de",
+			"name": "LOGOUT",
+			"url": "http://demo.testfire.net/api/logout",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains LoggedOut": true,
+				"Verify if LoggedOut= True": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains LoggedOut": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if LoggedOut= True": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains LoggedOut": true,
+					"Verify if LoggedOut= True": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3474,
+	"collection": {
+		"requests": [
+			{
+				"id": "05583d9e-54d7-4fee-ad53-d1d633856cf1",
+				"method": "POST"
+			},
+			{
+				"id": "e44ba67c-38c7-41d3-8977-64a3892449b9",
+				"method": "GET"
+			},
+			{
+				"id": "a52b15b1-ed83-4c20-98b4-5c7a9effecc8",
+				"method": "GET"
+			},
+			{
+				"id": "9db99af2-98cc-4bc7-90b6-b6431edaa609",
+				"method": "GET"
+			},
+			{
+				"id": "193d1a72-c8ac-4f07-b53b-90c5daef5a45",
+				"method": "GET"
+			},
+			{
+				"id": "c1a01721-6ff9-428c-84e1-3b824792389e",
+				"method": "POST"
+			},
+			{
+				"id": "f5eed93c-937d-4545-a230-07439e4a830f",
+				"method": "POST"
+			},
+			{
+				"id": "1c7934e7-4607-4ead-9090-8fedfdb0d162",
+				"method": "POST"
+			},
+			{
+				"id": "b1e70776-6463-4124-85af-12a46a1c69d5",
+				"method": "POST"
+			},
+			{
+				"id": "fc0de643-c152-4e1a-a8f5-cc73b2f3b52d",
+				"method": "POST"
+			},
+			{
+				"id": "fe266811-9f67-4407-a829-07bc6d0ff8de",
+				"method": "GET"
+			}
+		]
+	}
+}

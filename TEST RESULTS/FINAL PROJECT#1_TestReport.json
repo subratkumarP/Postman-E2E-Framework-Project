@@ -1,0 +1,1052 @@
+{
+	"id": "0e1f9a97-dbca-4ece-9cfa-af0a68aad4b8",
+	"name": "FINAL PROJECT#1",
+	"timestamp": "2025-12-11T16:05:39.291Z",
+	"collection_id": "5040522-0cd1dbf8-bc01-4e8e-b9e1-ec892f47bbfa",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 49,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-12-11T16:05:25.648Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "b88a36bd-d681-4298-83fd-32c4ccd0f3f6",
+			"name": "LOGIN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 867,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code=405 Method Not Allowed": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code=405 Method Not Allowed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				867
+			],
+			"allTests": [
+				{
+					"Verify if response code=405 Method Not Allowed": true
+				}
+			]
+		},
+		{
+			"id": "663dee62-5f9c-472b-b9e5-51cd53d560dc",
+			"name": "VERIFY IF USER IS LOGGED IN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 278,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "937090c3-2ae8-4388-bb48-27c4af4d9c7d",
+			"name": "GET ACCOUNTS",
+			"url": "http://demo.testfire.net/api/account",
+			"time": 576,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				576
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "eb950e56-da2f-4355-94cf-3d81f15f2d03",
+			"name": "VIEW ACCOUNT DETAILS",
+			"url": "http://demo.testfire.net/api/account/800003",
+			"time": 292,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				292
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "0201f254-ced8-49e8-8037-d0bac64a1ea1",
+			"name": "GET LAST 10 TRANSACTIONS",
+			"url": "http://demo.testfire.net/api/account/800003/transactions",
+			"time": 287,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "47774117-8805-420e-a8fe-00c3bf271b2a",
+			"name": "SHOW TRANSACTIONS BETWEEN 2 DATES",
+			"url": "http://demo.testfire.net/api/account/800003/transactions",
+			"time": 285,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "cc2fc5b6-762c-48d4-acc3-a4f65310bb4b",
+			"name": "TRANSFER",
+			"url": "http://demo.testfire.net/api/transfer",
+			"time": 287,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "44e72fcf-a55b-49d8-990e-6e6f31492678",
+			"name": "SUBMIT FEEDBACK",
+			"url": "http://demo.testfire.net/api/feedback/submit",
+			"time": 287,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				287
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "cb5908e1-330d-4fc1-9490-094a74de49e1",
+			"name": "ADD A USER",
+			"url": "http://demo.testfire.net/api/admin/addUser",
+			"time": 288,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				288
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "8fb834a3-61c6-44a7-9e89-f6a5d686ce9c",
+			"name": "CHANGE PASSWORD",
+			"url": "http://demo.testfire.net/api/admin/changePassword",
+			"time": 295,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				295
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "dd52119a-f1e1-4c1f-86e1-8f6f6c599bac",
+			"name": "LOGOUT",
+			"url": "http://demo.testfire.net/api/logout",
+			"time": 285,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "c3b45ebd-b4a4-44bc-9ae9-264fb56df5cc",
+			"name": "LOGIN",
+			"url": "http://demo.testfire.net/api/signin",
+			"time": 290,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				290
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "ffaba1ce-23e2-406b-9eb0-5384cb30801b",
+			"name": "VERIFY IF USER IS LOGGED IN",
+			"url": "http://demo.testfire.net/api/log in",
+			"time": 289,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "f9f6643d-b4d9-4b09-827e-0b0a0137a9c0",
+			"name": "GET ACCOUNTS",
+			"url": "http://demo.testfire.net/api/accounts",
+			"time": 290,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				290
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "64b8b499-c1b3-413a-97d5-1a8de26e7e81",
+			"name": "VIEW ACCOUNT DETAILS",
+			"url": "http://demo.testfire.net/api/account/007",
+			"time": 289,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "ef413137-c8cb-453a-94dc-2a5a0d347579",
+			"name": "GET LAST 10 TRANSACTIONS",
+			"url": "http://demo.testfire.net/api/account/transactions",
+			"time": 555,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				555
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "8b9e7c52-2611-4621-9ea3-150e5b7e7553",
+			"name": "SHOW TRANSACTIONS BETWEEN 2 DATES",
+			"url": "http://demo.testfire.net/api/account/007/transactions",
+			"time": 591,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 5xx Server side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 5xx Server side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				591
+			],
+			"allTests": [
+				{
+					"Verify if response code is 5xx Server side error": true
+				}
+			]
+		},
+		{
+			"id": "a13bd11a-7889-4449-9104-0e3452765625",
+			"name": "LOGOUT",
+			"url": "http://demo.testfire.net/api/signout",
+			"time": 551,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx Client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx Client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				551
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx Client side error": true
+				}
+			]
+		},
+		{
+			"id": "0a6c14e3-207d-4ecf-ad69-a1639eb7f7e0",
+			"name": "LOGIN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "13ca9139-2464-4902-8a49-85b216d807e3",
+			"name": "SHOW TRANSACTIONS BETWEEN 2 DATES",
+			"url": "http://demo.testfire.net/api/account/800003/transactions",
+			"time": 581,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				581
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "bd3dd977-0c99-4592-97a8-929bd2e63372",
+			"name": "TRANSFER",
+			"url": "http://demo.testfire.net/api/transfer",
+			"time": 562,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				562
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": false
+				}
+			]
+		},
+		{
+			"id": "961df313-f4da-4954-af9b-e6a8f03b2202",
+			"name": "SUBMIT FEEDBACK",
+			"url": "http://demo.testfire.net/api/feedback/submit",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": false
+				}
+			]
+		},
+		{
+			"id": "6988e0ca-bab6-410d-8b99-b28cbe62c456",
+			"name": "ADD A USER",
+			"url": "http://demo.testfire.net/api/admin/addUser",
+			"time": 282,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "658f5e05-c765-4fb1-a133-22d72000442f",
+			"name": "CHANGE PASSWORD",
+			"url": "http://demo.testfire.net/api/admin/changePassword",
+			"time": 554,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				554
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "bc42a7e5-aaca-4c86-b4e6-c06662167bd7",
+			"name": "LOGIN",
+			"url": "http://demo.testfire.net/api/login",
+			"time": 579,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains Authorization & success": true,
+				"Verify if success= jsmith is now logged in": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains Authorization & success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if success= jsmith is now logged in": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				579
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains Authorization & success": true,
+					"Verify if success= jsmith is now logged in": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "e32020b3-a6b4-4929-988b-d2294e6061df",
+			"name": "GET ACCOUNTS",
+			"url": "http://demo.testfire.net/api/account",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains Accounts, Name, id": true,
+				"Verify if the response body is valid": true,
+				"Verify if response headers do not display Server details": false,
+				"Verify if Content-Length is not equal to zero bytes": true,
+				"Verify if Savings account ID is 800002": true,
+				"Verify if Checking account ID is 800003": true,
+				"Verify if Credit Card account ID is 4539082039396288": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains Accounts, Name, id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if the response body is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 0
+				},
+				"Verify if Content-Length is not equal to zero bytes": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if Savings account ID is 800002": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if Checking account ID is 800003": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if Credit Card account ID is 4539082039396288": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains Accounts, Name, id": true,
+					"Verify if the response body is valid": true,
+					"Verify if response headers do not display Server details": false,
+					"Verify if Content-Length is not equal to zero bytes": true,
+					"Verify if Savings account ID is 800002": true,
+					"Verify if Checking account ID is 800003": true,
+					"Verify if Credit Card account ID is 4539082039396288": true
+				}
+			]
+		},
+		{
+			"id": "7f4bb6b9-db3c-4947-9a2a-6539fe9d0f2c",
+			"name": "SUBMIT FEEDBACK",
+			"url": "http://demo.testfire.net/api/feedback/submit",
+			"time": 292,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains comments, subject, name, email": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains comments, subject, name, email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				292
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains comments, subject, name, email": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		},
+		{
+			"id": "9fdffcd5-2711-43ca-8ce5-dd58ef3c1db4",
+			"name": "LOGOUT",
+			"url": "http://demo.testfire.net/api/logout",
+			"time": 294,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code=200 OK": true,
+				"Verify if response time is < 3 seconds": true,
+				"Verify if response body is received": true,
+				"Verify if response body received is in JSON format": true,
+				"Verify if response body contains LoggedOut": true,
+				"Verify if LoggedOut= True": true,
+				"Verify if response headers do not display Server details": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code=200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 3 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body received is in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains LoggedOut": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if LoggedOut= True": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response headers do not display Server details": {
+					"pass": 0,
+					"fail": 0
+				}
+			},
+			"times": [
+				294
+			],
+			"allTests": [
+				{
+					"Verify if response code=200 OK": true,
+					"Verify if response time is < 3 seconds": true,
+					"Verify if response body is received": true,
+					"Verify if response body received is in JSON format": true,
+					"Verify if response body contains LoggedOut": true,
+					"Verify if LoggedOut= True": true,
+					"Verify if response headers do not display Server details": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 10876,
+	"collection": {
+		"requests": [
+			{
+				"id": "b88a36bd-d681-4298-83fd-32c4ccd0f3f6",
+				"method": "DELETE"
+			},
+			{
+				"id": "663dee62-5f9c-472b-b9e5-51cd53d560dc",
+				"method": "POST"
+			},
+			{
+				"id": "937090c3-2ae8-4388-bb48-27c4af4d9c7d",
+				"method": "POST"
+			},
+			{
+				"id": "eb950e56-da2f-4355-94cf-3d81f15f2d03",
+				"method": "DELETE"
+			},
+			{
+				"id": "0201f254-ced8-49e8-8037-d0bac64a1ea1",
+				"method": "PATCH"
+			},
+			{
+				"id": "47774117-8805-420e-a8fe-00c3bf271b2a",
+				"method": "PUT"
+			},
+			{
+				"id": "cc2fc5b6-762c-48d4-acc3-a4f65310bb4b",
+				"method": "PATCH"
+			},
+			{
+				"id": "44e72fcf-a55b-49d8-990e-6e6f31492678",
+				"method": "GET"
+			},
+			{
+				"id": "cb5908e1-330d-4fc1-9490-094a74de49e1",
+				"method": "DELETE"
+			},
+			{
+				"id": "8fb834a3-61c6-44a7-9e89-f6a5d686ce9c",
+				"method": "PUT"
+			},
+			{
+				"id": "dd52119a-f1e1-4c1f-86e1-8f6f6c599bac",
+				"method": "POST"
+			},
+			{
+				"id": "c3b45ebd-b4a4-44bc-9ae9-264fb56df5cc",
+				"method": "POST"
+			},
+			{
+				"id": "ffaba1ce-23e2-406b-9eb0-5384cb30801b",
+				"method": "GET"
+			},
+			{
+				"id": "f9f6643d-b4d9-4b09-827e-0b0a0137a9c0",
+				"method": "GET"
+			},
+			{
+				"id": "64b8b499-c1b3-413a-97d5-1a8de26e7e81",
+				"method": "GET"
+			},
+			{
+				"id": "ef413137-c8cb-453a-94dc-2a5a0d347579",
+				"method": "GET"
+			},
+			{
+				"id": "8b9e7c52-2611-4621-9ea3-150e5b7e7553",
+				"method": "POST"
+			},
+			{
+				"id": "a13bd11a-7889-4449-9104-0e3452765625",
+				"method": "GET"
+			},
+			{
+				"id": "0a6c14e3-207d-4ecf-ad69-a1639eb7f7e0",
+				"method": "POST"
+			},
+			{
+				"id": "13ca9139-2464-4902-8a49-85b216d807e3",
+				"method": "POST"
+			},
+			{
+				"id": "bd3dd977-0c99-4592-97a8-929bd2e63372",
+				"method": "POST"
+			},
+			{
+				"id": "961df313-f4da-4954-af9b-e6a8f03b2202",
+				"method": "POST"
+			},
+			{
+				"id": "6988e0ca-bab6-410d-8b99-b28cbe62c456",
+				"method": "POST"
+			},
+			{
+				"id": "658f5e05-c765-4fb1-a133-22d72000442f",
+				"method": "POST"
+			},
+			{
+				"id": "bc42a7e5-aaca-4c86-b4e6-c06662167bd7",
+				"method": "POST"
+			},
+			{
+				"id": "e32020b3-a6b4-4929-988b-d2294e6061df",
+				"method": "GET"
+			},
+			{
+				"id": "7f4bb6b9-db3c-4947-9a2a-6539fe9d0f2c",
+				"method": "POST"
+			},
+			{
+				"id": "9fdffcd5-2711-43ca-8ce5-dd58ef3c1db4",
+				"method": "GET"
+			}
+		]
+	}
+}
